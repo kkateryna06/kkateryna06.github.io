@@ -1,0 +1,134 @@
+.topbar {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 80px;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: rgb(234, 233, 233);
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.babies {
+  display: flex;
+  justify-content: center;
+}
+
+.baby {
+  box-shadow: 0 0 20px 0.3px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.pic {
+  display: block;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.baby-but-active {
+  background-color: white !important; 
+  color: black !important;
+}
+
+.baby-but {
+  width: 300px;
+  height: 40px;
+  border-width: 1px;
+  background-color: black;
+  color: white;
+  font-family: Lato;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.baby-but:hover {
+  background-color: rgb(43, 43, 43);
+}
+
+.baby-but:active {
+  background-color: rgb(55, 55, 55);
+}
+
+.husbands {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.husband {
+  box-shadow: 0 0 20px 0.3px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.husband-but {
+  width: 300px;
+  height: 40px;
+  border-width: 1px;
+  background-color: black;
+  color: white;
+  font-family: Lato;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.husband-but-active {
+  background-color: white !important; 
+  color: black !important;
+}
+
+.button-yes {
+  width: 120px;
+  height: 100px;
+  background-color: rgb(252, 158, 171);
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  margin-right: 10px;
+}
+
+.button-no {
+  width: 120px;
+  height: 100px;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.old-picture {
+  width: 400px;
+  height: 700px;
+}
+
+.countdown {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #333;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
